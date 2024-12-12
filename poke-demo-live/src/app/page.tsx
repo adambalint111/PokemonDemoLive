@@ -73,7 +73,7 @@ export default function PokemonSearch() {
         {currentPokemons.map((pokemon) => (
           <Card key={pokemon.name}>
             <CardHeader>
-              <CardTitle>{pokemon.name}</CardTitle>
+              <CardTitle>{pokemon.name.toUpperCase()}</CardTitle>
             </CardHeader>
             <CardContent>
               <img
